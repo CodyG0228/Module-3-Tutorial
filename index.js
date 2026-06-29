@@ -1,6 +1,5 @@
-
 import * as fs from 'fs';
-console.log('choo choo!');
+import * as cowsay from 'cowsay';
 
 const words = ['dog', 'cat', 'wizard', 'phantom'];
 const output = words.join('\n');
